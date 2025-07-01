@@ -1,0 +1,14 @@
+/src
+ ├── components/
+ │     ├── Navbar.jsx
+ │     ├── ListingCard.jsx
+ │     ├── FiltersSidebar.jsx
+ │     └── AddListingForm.jsx
+ ├── pages/
+ │     ├── Home.jsx
+ │     ├── AddListing.jsx
+ │     ├── Profile.jsx
+ │     └── AdminPanel.jsx
+ ├── firebase.js (konfiguracja)
+ ├── App.jsx
+ └── index.jsx
