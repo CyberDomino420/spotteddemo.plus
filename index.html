@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>SpottedPlus – demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>SpottedPlus</h1>
+    <input type="text" placeholder="Szukaj..." id="searchBar"/>
+  </header>
+  <nav id="categories">
+    <div>🏠 Nieruchomości</div>
+    <div>🚗 Motoryzacja</div>
+    <div>💼 Usługi</div>
+    <div>🎁 Kupię/Sprzedam</div>
+    <div>🛒 Promocje</div>
+    <div>💬 Społeczność</div>
+  </nav>
+  <div class="container">
+    <aside>
+      <h2>Filtry</h2>
+      <label>Max cena:<input type="range" id="priceRange" min="0" max="10000" /></label>
+      <div>Mapa (mockup)</div>
+    </aside>
+    <main id="listings">
+      <!-- przykładowe ogłoszenia -->
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
